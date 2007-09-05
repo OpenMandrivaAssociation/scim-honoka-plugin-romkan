@@ -10,8 +10,8 @@ Version:    %{version}
 Release:    %{release}
 Group:      System/Internationalization
 License:    GPL
-URL:        http://sourceforge.jp/projects/scim-imengine/
-Source0:    %{src_name}-%{version}.tar.bz2
+URL:        http://nop.net-p.org/modules/pukiwiki/index.php?%5B%5Bhonoka%5D%5D
+Source0:    http://nop.net-p.org/files/honoka/%{src_name}-%{version}.tar.bz2
 Patch0:     honoka-plugin-romkan_change_default_romaji_tables.diff
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: scim-honoka-devel >= %{honoka_version}
