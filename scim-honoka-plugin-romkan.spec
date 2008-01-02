@@ -13,6 +13,7 @@ License:    GPL
 URL:        http://nop.net-p.org/modules/pukiwiki/index.php?%5B%5Bhonoka%5D%5D
 Source0:    http://nop.net-p.org/files/honoka/%{src_name}-%{version}.tar.bz2
 Patch0:     honoka-plugin-romkan_change_default_romaji_tables.diff
+BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: scim-honoka-devel >= %{honoka_version}
 BuildRequires: automake
 BuildRequires: libltdl-devel
