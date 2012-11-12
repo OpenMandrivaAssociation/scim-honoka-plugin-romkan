@@ -1,0 +1,11 @@
+--- src/romkan.h	2006-01-20 02:11:42.476909920 +0900
++++ src/romkan.h.new	2006-01-20 03:01:28.670939424 +0900
+@@ -34,7 +34,7 @@
+ 
+ 
+ #define HONOKA_CONFIG_ROMKAN_TABLE_FILE            "/IMEngine/Honoka/Romkan/TableFile"
+-#define HONOKA_DEFAULT_ROMKAN_TABLE_FILE           "honoka-def.rkt"
++#define HONOKA_DEFAULT_ROMKAN_TABLE_FILE           "like-msime.rkt"
+ #define HONOKA_CONFIG_ROMKAN_A2K_KEY               "/IMEngine/Honoka/Romkan/AsciiToKana"
+ #define HONOKA_DEFAULT_ROMKAN_A2K_KEY              "Hiragana_Katakana"
+ 
