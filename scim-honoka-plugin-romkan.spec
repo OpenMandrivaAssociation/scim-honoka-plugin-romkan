@@ -1,5 +1,5 @@
 %define version  0.9.0
-%define release  %mkrel 6
+%define release 7
 %define src_name honoka-plugin-romkan
 
 %define honoka_version   0.9.0
